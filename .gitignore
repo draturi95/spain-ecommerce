@@ -18,6 +18,7 @@ node_modules
 # misc
 .DS_Store
 *.pem
+/styles/styles2.css
 
 # debug
 npm-debug.log*
