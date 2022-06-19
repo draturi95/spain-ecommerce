@@ -28,7 +28,13 @@
           }
         </div>
 
-        <FooterBanner/>
+        {
+          bannerData ? 
+            <FooterBanner
+              footerBanner={bannerData[0]}
+            />
+          : null 
+        }
       </>
     )
   }
